@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essay Submission Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Essay Submission Portal</h1>
+            <p class="subtitle">Submit your essays and access lecture materials</p>
+        </header>
+
+        <main>
+            <!-- Lecture Section -->
+            <section class="lecture-section">
+                <h2>📖 Current Lecture</h2>
+                <div class="lecture-card">
+                    <h3>Introduction to Academic Writing</h3>
+                    <p><strong>Date:</strong> May 28, 2026</p>
+                    <p><strong>Instructor:</strong> Dr. Course Instructor</p>
+                    <p class="lecture-description">
+                        This lecture covers the fundamentals of structuring an academic essay, including thesis development, argumentation, and proper citation methods.
+                    </p>
+                    <a href="#" class="btn btn-secondary">Download Lecture Notes</a>
+                </div>
+            </section>
+
+            <!-- Instructions Section -->
+            <section class="instructions-section">
+                <h2>✍️ Essay Writing Instructions</h2>
+                <div class="instructions-container">
+                    <div class="instruction-card">
+                        <h3>📋 Requirements</h3>
+                        <ul>
+                            <li>Minimum 1,500 words</li>
+                            <li>Maximum 3,000 words</li>
+                            <li>Double-spaced, 12pt font</li>
+                            <li>APA or MLA citation format</li>
+                            <li>Include at least 5 academic sources</li>
+                        </ul>
+                    </div>
+
+                    <div class="instruction-card">
+                        <h3>🎯 Structure</h3>
+                        <ol>
+                            <li><strong>Introduction</strong> - Hook and thesis statement</li>
+                            <li><strong>Body Paragraphs</strong> - Topic sentence, evidence, analysis</li>
+                            <li><strong>Conclusion</strong> - Restate thesis and implications</li>
+                            <li><strong>References</strong> - Properly formatted bibliography</li>
+                        </ol>
+                    </div>
+
+                    <div class="instruction-card">
+                        <h3>⏰ Important Dates</h3>
+                        <p><strong>Due Date:</strong> June 15, 2026</p>
+                        <p><strong>Late Submission:</strong> -5% per day after deadline</p>
+                        <p><strong>Maximum Late Period:</strong> 7 days</p>
+                    </div>
+
+                    <div class="instruction-card">
+                        <h3>📊 Grading Criteria</h3>
+                        <ul>
+                            <li>Thesis clarity - 20%</li>
+                            <li>Argumentation and evidence - 30%</li>
+                            <li>Organization and structure - 20%</li>
+                            <li>Grammar and writing quality - 15%</li>
+                            <li>Citation format - 15%</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Upload Section -->
+            <section class="upload-section">
+                <h2>📤 Submit Your Essay</h2>
+                <div class="upload-container">
+                    <form id="uploadForm" class="upload-form">
+                        <div class="form-group">
+                            <label for="studentName">Student Name *</label>
+                            <input type="text" id="studentName" name="studentName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="studentEmail">Email *</label>
+                            <input type="email" id="studentEmail" name="studentEmail" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="essayTitle">Essay Title *</label>
+                            <input type="text" id="essayTitle" name="essayTitle" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="essayFile">Upload Essay (PDF, DOC, DOCX) *</label>
+                            <input type="file" id="essayFile" name="essayFile" accept=".pdf,.doc,.docx" required>
+                            <small>Maximum file size: 10MB</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="comments">Additional Comments</label>
+                            <textarea id="comments" name="comments" rows="4" placeholder="Any notes or questions for your instructor..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit Essay</button>
+                    </form>
+
+                    <div id="successMessage" class="success-message" style="display: none;">
+                        ✅ Your essay has been submitted successfully!
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="faq-section">
+                <h2>❓ Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h4>Can I submit my essay late?</h4>
+                    <p>Yes, but late submissions are penalized at 5% per day, up to a maximum of 7 days after the deadline.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What file formats are accepted?</h4>
+                    <p>We accept PDF, DOC, and DOCX formats. Please ensure your document is properly formatted before uploading.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How will I know my essay was received?</h4>
+                    <p>You will receive a confirmation email immediately after submission. Check your spam folder if you don't see it.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I revise my essay after submission?</h4>
+                    <p>Please contact your instructor before the deadline. Revisions are allowed only with prior approval.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Academic Portal. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
