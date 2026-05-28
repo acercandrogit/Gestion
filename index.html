@@ -1,142 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Essay Submission Portal</title>
+    <title>Portal de Ensayos - Las Leyes Fundamentales de la Estupidez Humana</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>📚 Essay Submission Portal</h1>
-            <p class="subtitle">Submit your essays and access lecture materials</p>
+            <h1>📚 Portal de Ensayos</h1>
+            <p class="subtitle">Las Leyes Fundamentales de la Estupidez Humana</p>
         </header>
 
         <main>
             <!-- Lecture Section -->
             <section class="lecture-section">
-                <h2>📖 Current Lecture</h2>
+                <h2>📖 Material de Lectura</h2>
                 <div class="lecture-card">
-                    <h3>Introduction to Academic Writing</h3>
-                    <p><strong>Date:</strong> May 28, 2026</p>
-                    <p><strong>Instructor:</strong> Dr. Course Instructor</p>
+                    <h3>Las Leyes Fundamentales de la Estupidez Humana</h3>
+                    <p><strong>Autor:</strong> Carlo M. Cipolla</p>
                     <p class="lecture-description">
-                        This lecture covers the fundamentals of structuring an academic essay, including thesis development, argumentation, and proper citation methods.
+                        En este libro, Carlo M. Cipolla nos presenta de manera brillante y satírica un análisis sobre la estupidez humana, 
+                        considerándola como una de las fuerzas más poderosas que mueven el mundo. A través de una serie de leyes fundamentales, 
+                        el autor examina cómo las personas estúpidas actúan de manera irracional y dañina para sí mismas y para los demás.
                     </p>
-                    <a href="#" class="btn btn-secondary">Download Lecture Notes</a>
+                    <p class="lecture-description">
+                        <strong>Instrucciones:</strong> Descarga el documento en PDF para leerlo y preparar tu ensayo.
+                    </p>
+                    <a href="#" class="btn btn-secondary" download>📥 Descargar Libro (PDF)</a>
                 </div>
             </section>
 
             <!-- Instructions Section -->
             <section class="instructions-section">
-                <h2>✍️ Essay Writing Instructions</h2>
+                <h2>✍️ Instrucciones para el Ensayo</h2>
                 <div class="instructions-container">
                     <div class="instruction-card">
-                        <h3>📋 Requirements</h3>
+                        <h3>📋 Paso 1: Leer</h3>
+                        <p>
+                            Lee el libro <strong>"Las Leyes Fundamentales de la Estupidez Humana"</strong> 
+                            de Carlo M. Cipolla. Tómate tu tiempo para entender los conceptos principales 
+                            y reflexionar sobre cómo se aplican en la realidad.
+                        </p>
+                    </div>
+
+                    <div class="instruction-card">
+                        <h3>✏️ Paso 2: Escribir</h3>
+                        <p>
+                            Escribe un ensayo donde expreses tu opinión personal sobre:
+                        </p>
                         <ul>
-                            <li>Minimum 1,500 words</li>
-                            <li>Maximum 3,000 words</li>
-                            <li>Double-spaced, 12pt font</li>
-                            <li>APA or MLA citation format</li>
-                            <li>Include at least 5 academic sources</li>
+                            <li>El tema propuesto por el autor</li>
+                            <li>Su forma de presentarlo</li>
+                            <li>Tu perspectiva crítica sobre las ideas expuestas</li>
                         </ul>
                     </div>
 
                     <div class="instruction-card">
-                        <h3>🎯 Structure</h3>
-                        <ol>
-                            <li><strong>Introduction</strong> - Hook and thesis statement</li>
-                            <li><strong>Body Paragraphs</strong> - Topic sentence, evidence, analysis</li>
-                            <li><strong>Conclusion</strong> - Restate thesis and implications</li>
-                            <li><strong>References</strong> - Properly formatted bibliography</li>
-                        </ol>
-                    </div>
-
-                    <div class="instruction-card">
-                        <h3>⏰ Important Dates</h3>
-                        <p><strong>Due Date:</strong> June 15, 2026</p>
-                        <p><strong>Late Submission:</strong> -5% per day after deadline</p>
-                        <p><strong>Maximum Late Period:</strong> 7 days</p>
-                    </div>
-
-                    <div class="instruction-card">
-                        <h3>📊 Grading Criteria</h3>
+                        <h3>📏 Extensión Requerida</h3>
+                        <p>
+                            <strong>Máximo 3 cuartillas:</strong>
+                        </p>
                         <ul>
-                            <li>Thesis clarity - 20%</li>
-                            <li>Argumentation and evidence - 30%</li>
-                            <li>Organization and structure - 20%</li>
-                            <li>Grammar and writing quality - 15%</li>
-                            <li>Citation format - 15%</li>
+                            <li>Equivalente a 1 página y media (máximo)</li>
+                            <li>Letra tamaño 12</li>
+                            <li>Interlineado doble</li>
                         </ul>
+                    </div>
+
+                    <div class="instruction-card">
+                        <h3>📅 Fecha de Entrega</h3>
+                        <p>
+                            <strong>En la primera sesión de clase</strong>
+                        </p>
+                        <p class="deadline-note">
+                            Presenta tu ensayo en formato físico en la primera clase después de asignarse esta tarea.
+                        </p>
                     </div>
                 </div>
             </section>
 
-            <!-- Upload Section -->
-            <section class="upload-section">
-                <h2>📤 Submit Your Essay</h2>
-                <div class="upload-container">
-                    <form id="uploadForm" class="upload-form">
-                        <div class="form-group">
-                            <label for="studentName">Student Name *</label>
-                            <input type="text" id="studentName" name="studentName" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="studentEmail">Email *</label>
-                            <input type="email" id="studentEmail" name="studentEmail" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="essayTitle">Essay Title *</label>
-                            <input type="text" id="essayTitle" name="essayTitle" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="essayFile">Upload Essay (PDF, DOC, DOCX) *</label>
-                            <input type="file" id="essayFile" name="essayFile" accept=".pdf,.doc,.docx" required>
-                            <small>Maximum file size: 10MB</small>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="comments">Additional Comments</label>
-                            <textarea id="comments" name="comments" rows="4" placeholder="Any notes or questions for your instructor..."></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary">Submit Essay</button>
-                    </form>
-
-                    <div id="successMessage" class="success-message" style="display: none;">
-                        ✅ Your essay has been submitted successfully!
-                    </div>
+            <!-- Important Notes Section -->
+            <section class="notes-section">
+                <h2>⚠️ Consideraciones Importantes</h2>
+                <div class="notes-card">
+                    <ul>
+                        <li><strong>Reflexión Personal:</strong> Tu ensayo debe reflejar tu opinión genuina sobre el tema</li>
+                        <li><strong>Análisis Crítico:</strong> No solo resumas el libro, analiza y cuestiona las ideas presentadas</li>
+                        <li><strong>Claridad:</strong> Expresa tus ideas de manera clara y coherente</li>
+                        <li><strong>Presentación Física:</strong> Entrega una copia impresa o manuscrita en la clase</li>
+                        <li><strong>Cumplimiento de Límite:</strong> Asegúrate de no exceder las 3 cuartillas (1.5 páginas)</li>
+                    </ul>
                 </div>
             </section>
 
             <!-- FAQ Section -->
             <section class="faq-section">
-                <h2>❓ Frequently Asked Questions</h2>
+                <h2>❓ Preguntas Frecuentes</h2>
                 <div class="faq-item">
-                    <h4>Can I submit my essay late?</h4>
-                    <p>Yes, but late submissions are penalized at 5% per day, up to a maximum of 7 days after the deadline.</p>
+                    <h4>¿Debo citar al autor en mi ensayo?</h4>
+                    <p>
+                        Mientras que el ensayo es principalmente tu opinión personal, está bien hacer referencias 
+                        a las ideas específicas del autor que te inspire tu análisis.
+                    </p>
                 </div>
                 <div class="faq-item">
-                    <h4>What file formats are accepted?</h4>
-                    <p>We accept PDF, DOC, and DOCX formats. Please ensure your document is properly formatted before uploading.</p>
+                    <h4>¿Puedo entregar el ensayo de forma digital?</h4>
+                    <p>
+                        No, según las instrucciones, el ensayo debe entregarse en formato físico 
+                        (impreso o manuscrito) en la primera sesión de clase.
+                    </p>
                 </div>
                 <div class="faq-item">
-                    <h4>How will I know my essay was received?</h4>
-                    <p>You will receive a confirmation email immediately after submission. Check your spam folder if you don't see it.</p>
+                    <h4>¿Cuál es el formato recomendado?</h4>
+                    <p>
+                        Recomendaciones: Letra tamaño 12, interlineado doble, márgenes normales (2.5 cm). 
+                        Puedes entregar impreso o escrito a mano de forma legible.
+                    </p>
                 </div>
                 <div class="faq-item">
-                    <h4>Can I revise my essay after submission?</h4>
-                    <p>Please contact your instructor before the deadline. Revisions are allowed only with prior approval.</p>
+                    <h4>¿Qué pasa si excedo las 3 cuartillas?</h4>
+                    <p>
+                        El límite es máximo 3 cuartillas (1.5 páginas). Se recomienda revisar y ajustar 
+                        tu trabajo para cumplir con este requisito.
+                    </p>
+                </div>
+                <div class="faq-item">
+                    <h4>¿Debo incluir una portada?</h4>
+                    <p>
+                        No es obligatorio, pero si deseas incluir una portada con tu nombre, la fecha y 
+                        el título del ensayo, sería profesional. Ten en cuenta que constaría como parte de las 3 cuartillas.
+                    </p>
                 </div>
             </section>
         </main>
 
         <footer>
-            <p>&copy; 2026 Academic Portal. All rights reserved.</p>
+            <p>&copy; 2026 Portal de Ensayos. Todos los derechos reservados.</p>
         </footer>
     </div>
 
